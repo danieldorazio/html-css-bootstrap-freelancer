@@ -1,0 +1,50 @@
+/**********
+*   ROOT  *
+**********/
+
+:root {
+    --nav-color:#2c3e50;
+    --text-nav-color:#ffffff;
+    --hero-color:#1abc9c;
+    --hero-text-color:#ffffff;
+}
+
+/**********
+*  COOMON *
+**********/
+
+.wrapper {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/**********
+*  HEADER *
+**********/
+
+/********** NAV **********/
+
+header {
+    background-color: var(--nav-color);
+    height: 70px;
+}
+
+header nav.container {
+    /*debug*/
+    background-color: var(--text-nav-color);
+    height: 100%;
+}
+
+/**********
+*  MAIN    *
+**********/
+
+/********** HERO **********/
+#hero {
+    background-color: var(--hero-color);
+}
+
+#hero .wrapper {
+    background-color: #ffffff;
+}

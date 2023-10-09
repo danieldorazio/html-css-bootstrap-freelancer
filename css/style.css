@@ -7,6 +7,8 @@
     --text-nav-color:#ffffff;
     --hero-about-color:#1abc9c;
     --hero-text-color:#ffffff;
+    --footer-top-color:#3a546d;
+    --footer-bottom-color:#2c3e50;
 }
 
 /**********
@@ -14,11 +16,10 @@
 **********/
 
 .wrapper {
-    width: 80%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
 }
-
 
 
 /**********
@@ -51,17 +52,15 @@ header nav.container {
     background-color: #ffffff;
 }
 
+
 /********** PORTFOLIO **********/
-#portfolio {
-    /*debug*/
-    background-color: rgb(175, 212, 212);
-}
 
 #portfolio .row> * {
     /*debug*/
     border: 2px solid black;
     background-color: yellowgreen;
 }
+
 
 /********** ABOUT **********/
 #about {
@@ -72,4 +71,34 @@ header nav.container {
     /*debug*/
     border: 2px solid black;
     background-color: yellowgreen;
+}
+
+/********** CONTACT ME **********/
+
+#contact-me div {
+    /*debug*/
+    border: 2px solid black;
+    background-color: yellowgreen;
+}
+
+/**********
+*  FOOTER *
+**********/
+
+/********** FOOTER-TOP **********/
+#footer-top {
+    background-color: var(--footer-top-color);
+}
+
+#footer-top .row> * {
+    /*debug*/
+    border: 2px solid black;
+    background-color: yellowgreen;
+}
+
+
+/********** FOOTER-BOTTOM **********/
+
+#footer-bottom {
+    background-color: var(--footer-bottom-color);
 }

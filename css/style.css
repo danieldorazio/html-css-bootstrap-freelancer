@@ -25,6 +25,18 @@ img {
     max-width: 100%;
 }
 
+.ms-star::before, .ms-star::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-size: 3rem;
+    display: inline-block;
+    font-weight: 600; 
+    content: "\f2d1";
+}
+
+.ms-star i {
+    font-size: 1.5rem;
+}
+
 /**********
 *  HEADER *
 **********/
@@ -45,21 +57,6 @@ header {
     background-color: var(--hero-about-color);
 }
 
-#hero .ms-star::before, #hero .ms-star::after {
-    font-family: "Font Awesome 5 Free"; 
-    font-size: 3rem;
-    display: inline-block;
-    font-weight: 600; 
-    content: "\f2d1";
-}
-
-
-
-#hero span i {
-    font-size: 3rem;
-}
-
-
 /********** PORTFOLIO **********/
 
 #portfolio .row img {
@@ -72,17 +69,22 @@ header {
     background-color: var(--hero-about-color);
 }
 
-#about .row> * {
-    /*debug*/
-    border: 2px solid black;
-    background-color: yellowgreen;
+.ms-btn-outline-white {
+    color: white;
+    border-color: white;
 }
 
 /********** CONTACT ME **********/
-#contact-me div {
-    /*debug*/
-    border: 2px solid black;
-    background-color: yellowgreen;
+.ms-border-only-bottom {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.ms-btn-send {
+    background-color: var(--hero-about-color);
+    color: white;
 }
 
 

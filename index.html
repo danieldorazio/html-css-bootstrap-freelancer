@@ -60,13 +60,13 @@
         <section id="hero" class="py-5">
             <div class="container">
                 <div class="row justify-content-center text-white">
-                    <div class="col-md-4 text-center">
-                        <img class="mb-5" src="img/avatar.svg" alt="">
+                    <div class="col-md-5 text-center">
+                        <img class="mb-5 p-5" src="img/avatar.svg" alt="">
                         <h1>START BOOTSTRAP</h1>
                         <span class="ms-star">
                             <i class="fa-solid fa-star mb-5"></i>
                         </span>
-                        <div class="fs-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATION</div>
+                        <div class="fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATION</div>
                     </div>
                 </div>
             </div>
@@ -76,9 +76,12 @@
         <!-------------PORTFOLIO-------------->
         <section id="portfolio" class="py-5">
             <div class="container text-center">
-                <h2>PORTFOLIO</h2>   
+                <h2>PORTFOLIO</h2>
+                <span class="ms-star">
+                    <i class="fa-solid fa-star mb-5"></i>
+                </span>   
                 <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-4">  <!--inserire img allinterno di una card-->
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/cabin.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
@@ -103,21 +106,57 @@
 
         <!-------------ABOUT-------------->
         <section id="about" class="py-5">
-                <div class="container text-white">
+                <div class="container text-center text-white">
                     <h2 class="text-center">ABOUT</h2>
-                    <div class="row g-4">    <!--per creare un contenuto piu piccolo posso dare una colonna piu piccola e le proprieta di flex o creare uno ms_sm_container-->
-                        <div class="col-12 col-md-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic perferendis incidunt amet. Voluptate, iste ut ab autem ipsam aliquid ad sunt in tempore repellendus ipsum nam ratione eius blanditiis maxime!</div>
-                        <div class="col-12 col-md-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam iure autem tempore at quisquam molestias, sunt consectetur temporibus. Quos voluptates aspernatur mollitia sed exercitationem nisi qui deleniti asperiores voluptas ipsam.</div>
+                    <span class="ms-star">
+                        <i class="fa-solid fa-star mb-5"></i>
+                    </span>   
+                    <div class="row justify-content-between  text-start mb-5">    <!--per creare un contenuto piu piccolo posso dare una colonna piu piccola e le proprieta di flex o creare uno ms_sm_container-->
+                        <div class="col-8 col-md-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic perferendis incidunt amet. Voluptate, iste ut ab autem ipsam aliquid ad sunt in tempore repellendus ipsum nam ratione eius blanditiis maxime!</div>
+                        <div class="col-8 col-md-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam iure autem tempore at quisquam molestias, sunt consectetur temporibus. Quos voluptates aspernatur mollitia sed exercitationem nisi qui deleniti asperiores voluptas ipsam.</div>
                     </div>
+                    <button type="button" class="btn ms-btn-outline-white">
+                        <i class="fa-solid fa-download"></i>
+                        Download
+                    </button>
                 </div>
         </section>
 
 
         <!-------------CONTACT ME-------------->
         <section id="contact-me" class="py-5">
-            <div class="container">
+            <div class="container text-center">
                 <h2>CONTACT ME</h2>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, hic tempora ratione repellendus aliquid porro magnam aut, perspiciatis quisquam impedit minima est vitae neque necessitatibus corporis iusto ea! Tempora, molestiae!</div>
+                <span class="ms-star">
+                    <i class="fa-solid fa-star mb-5"></i>
+                </span> 
+                <form class="text-start">
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input type="text" class="form-control ms-border-only-bottom" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control ms-border-only-bottom" id="email" aria-describedby="emailHelp">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control ms-border-only-bottom" id="phone">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <input type="textarea" class="form-control ms-border-only-bottom" id="message">
+                    </div>
+
+                    <button type="submit" class="btn ms-btn-send">Send</button>
+                    
+                    </form>
+            
+            
+            
             </div>
         </section> 
     </main>

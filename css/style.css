@@ -15,11 +15,7 @@
 *  COOMON *
 **********/
 
-.ms-wrapper {
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-}
+
 
 img {
     max-width: 100%;
@@ -35,6 +31,10 @@ img {
 
 .ms-star i {
     font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
 }
 
 /**********
@@ -97,8 +97,26 @@ header {
     background-color: var(--footer-top-color);
 }
 
+#footer-top li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+#footer-top a {
+    text-decoration: none;
+    color: var(--hero-about-color);
+    
+}
+
+
 /********** FOOTER-BOTTOM **********/
 
 #footer-bottom {
     background-color: var(--footer-bottom-color);
 }
+

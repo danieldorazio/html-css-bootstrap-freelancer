@@ -21,6 +21,9 @@
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
 
 /**********
 *  HEADER *
@@ -31,12 +34,6 @@
 header {
     background-color: var(--nav-color);
     height: 70px;
-}
-
-header nav.container {
-    /*debug*/
-    background-color: var(--text-nav-color);
-    height: 100%;
 }
 
 /**********
@@ -55,10 +52,8 @@ header nav.container {
 
 /********** PORTFOLIO **********/
 
-#portfolio .row> * {
-    /*debug*/
-    border: 2px solid black;
-    background-color: yellowgreen;
+#portfolio .row img {
+    border-radius: 20px;
 }
 
 
@@ -74,12 +69,12 @@ header nav.container {
 }
 
 /********** CONTACT ME **********/
-
 #contact-me div {
     /*debug*/
     border: 2px solid black;
     background-color: yellowgreen;
 }
+
 
 /**********
 *  FOOTER *
@@ -89,13 +84,6 @@ header nav.container {
 #footer-top {
     background-color: var(--footer-top-color);
 }
-
-#footer-top .row> * {
-    /*debug*/
-    border: 2px solid black;
-    background-color: yellowgreen;
-}
-
 
 /********** FOOTER-BOTTOM **********/
 

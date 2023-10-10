@@ -15,7 +15,7 @@
 *  COOMON *
 **********/
 
-.wrapper {
+.ms-wrapper {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
@@ -45,8 +45,18 @@ header {
     background-color: var(--hero-about-color);
 }
 
-#hero .wrapper {
-    background-color: #ffffff;
+#hero .ms-star::before, #hero .ms-star::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-size: 3rem;
+    display: inline-block;
+    font-weight: 600; 
+    content: "\f2d1";
+}
+
+
+
+#hero span i {
+    font-size: 3rem;
 }
 
 
